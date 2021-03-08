@@ -46,6 +46,17 @@ namespace Metody03GIT
 
             return vysledek;
         }
+        //3
+        double faktorial(double y)
+        {
+            double vysledek = 1;
+            while (y > 0)
+            {
+                vysledek *= y;
+                y--;
+            }
+            return vysledek;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -56,6 +67,9 @@ namespace Metody03GIT
             int a = Convert.ToInt32(textBox5.Text);
             int b = Convert.ToInt32(textBox6.Text);
             MessageBox.Show("Mocnina je: " + mocnina(a, b).ToString());
+            //3
+            double y = Convert.ToDouble(textBox7.Text);
+            label1.Text = faktorial(a).ToString();
         }
     }
 }
