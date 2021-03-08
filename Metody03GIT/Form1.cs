@@ -57,6 +57,18 @@ namespace Metody03GIT
             }
             return vysledek;
         }
+        //4
+        int cifLichSoucet(int q)
+        {
+            int soucet = 0;
+            while (q > 0)
+            {
+                if ((q % 10) % 2 != 0) soucet += a % 10;
+                q /= 10;
+            }
+            return soucet;
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -70,6 +82,9 @@ namespace Metody03GIT
             //3
             double y = Convert.ToDouble(textBox7.Text);
             label1.Text = faktorial(a).ToString();
+            //4
+            int q = Convert.ToInt32(textBox8.Text);
+            label6.Text = cifLichSoucet(a).ToString();
         }
     }
 }
