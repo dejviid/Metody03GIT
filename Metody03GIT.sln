@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody03GIT", "Metody03GIT\Metody03GIT.csproj", "{CDB790DE-A0C6-49DE-BFF1-D658B665B81A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDB790DE-A0C6-49DE-BFF1-D658B665B81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB790DE-A0C6-49DE-BFF1-D658B665B81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB790DE-A0C6-49DE-BFF1-D658B665B81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB790DE-A0C6-49DE-BFF1-D658B665B81A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2002901-48C8-41EE-AE27-1CE28634D868}
+	EndGlobalSection
+EndGlobal
