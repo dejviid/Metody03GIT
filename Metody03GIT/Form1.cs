@@ -63,7 +63,7 @@ namespace Metody03GIT
             int soucet = 0;
             while (q > 0)
             {
-                if ((q % 10) % 2 != 0) soucet += a % 10;
+                if ((q % 10) % 2 != 0) soucet += q % 10;
                 q /= 10;
             }
             return soucet;
